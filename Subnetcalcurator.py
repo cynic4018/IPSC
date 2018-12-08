@@ -291,51 +291,7 @@ if __name__ == '__main__':
     loop_cal()
 
 
-    ##Test Checking Example
-    # print("case:Sub = 11111111.11111111.11111111.00000000, ip = 11000000.10101000.00000000.00000001")
-    # ip_tobinary = ['11000000', '10101000', '00000000', '00000001']
-    # sub_tobinary = ['11111111', '11111111', '11111111', '00000000']
-    # ip_mask_binary = "".join(ip_tobinary)
-    # sub_mask_binary =  "".join(sub_tobinary)
-    #
-    #
-    # number_sub_one = sub_mask_binary.count("1")
-    # number_sub_zero = 32 - number_sub_one
-    # # network_address = ip_mask_binary[:24]+("0"*8)
-    #
-    # network_addfront = ''
-    # c = 0
-    # for i in range (number_sub_one):
-    #     network_addfront += ip_mask_binary[i]
-    #     c += 1
-    #     if(c == 8):
-    #         network_addfront += "."
-    #         c = 0
-    #
-    # network_address = network_addfront + ("0"*8)
-    # print(network_address)
-    # # for i in range(0, 24):
-    # #     network_address += ip_mask_binary[i] + ("0" * 8)
-    #
-    # network_pre_decimal = network_address.split(".")
-    #
-    # network_decimal = ''
-    # firstadd_host_ip = ''
-    # cnetdot = 0
-    # for i in range(0, len(network_pre_decimal)):
-    #     if cnetdot == 3:
-    #         network_decimal += str(int(network_pre_decimal[i], 2))
-    #         firstadd_host_ip += str(int(network_pre_decimal[i], 2) + 1)
-    #     else:
-    #         network_decimal += str(int(network_pre_decimal[i], 2))
-    #         firstadd_host_ip += str(int(network_pre_decimal[i], 2))
-    #         firstadd_host_ip += "."
-    #         network_decimal += "."
-    #         cnetdot += 1
-    #
-    # print("Network address binary"+ network_pre_decimal)
-    # print("Network address = "+ network_decimal)
-    # print("1st add network = "+ firstadd_host_ip)
+  
 
 
 
